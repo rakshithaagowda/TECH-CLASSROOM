@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Classroom | Live Class</title>
+
+    <link rel="stylesheet" href="../css/classroom.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">Tech Classroom</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="Classroom.html" class="active">Classroom</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="chatbot.html">Chatbot</a></li>
+            <li><a href="todo.html">To-Do</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN WRAPPER -->
+    <section class="classroom-section">
+
+        <!-- CREATE / JOIN PANEL -->
+        <div id="entry-panel" class="entry-card">
+            <h2>Live Classroom</h2>
+
+            <div class="field">
+                <label>Classroom Title:</label>
+                <input id="roomTitle" placeholder="Enter name for new classroom">
+                <button id="createBtn" class="btn">Create Classroom</button>
+            </div>
+
+            <div class="or-text">— OR —</div>
+
+            <div class="field">
+                <label>Enter Code to Join:</label>
+                <input id="joinCode" placeholder="ABC123" />
+                <button id="joinBtn" class="btn">Join Classroom</button>
+            </div>
+
+        </div>
+
+        <!-- LIVE ROOM -->
+        <div id="room" style="display:none;">
+
+            <h2 id="roomName"></h2>
+            <p class="room-code">Room Code: <span id="roomCode"></span></p>
+
+            <div class="videos">
+                <div class="video-box">
+                    <h3>You</h3>
+                    <video id="localVideo" autoplay playsinline muted></video>
+                </div>
+
+                <div class="video-box">
+                    <h3>Student</h3>
+                    <video id="remoteVideo" autoplay playsinline></video>
+                </div>
+            </div>
+
+            <!-- CONTROLS -->
+            <div class="controls">
+                <button id="startCamBtn" class="btn small">Start Camera</button>
+                <button id="callBtn" class="btn small">Start Call</button>
+            </div>
+
+            <!-- CHAT BOX -->
+            <div class="chat-wrapper">
+                <h3>Classroom Chat</h3>
+
+                <div id="chatBox"></div>
+
+                <div class="chat-input">
+                    <input id="chatMsg" placeholder="Type message...">
+                    <button id="sendMsgBtn" class="btn small">Send</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="../js/classroom.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

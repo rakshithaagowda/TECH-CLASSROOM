@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Tech Classroom</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/dashboard.css" />
+</head>
+
+<body>
+
+  <!-- 🌐 Navbar -->
+  <nav class="navbar">
+    <div class="logo">Tech Classroom</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="Classroom.html">Classroom</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="chatbot.html">Chatbot</a></li>
+      <li><a href="todo.html">To-Do</a></li>
+      <li><a href="dashboard.html" class="active">Dashboard</a></li>
+      <li><a href="resources.html">Resources</a></li>
+
+      <!-- controlled by session.js -->
+      <li><a id="loginLink" href="login.html">Login</a></li>
+      <li><a id="logoutBtn" style="display:none; cursor:pointer;">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- 📊 Dashboard Section -->
+  <section class="dashboard">
+    <h1>Welcome to Your Dashboard</h1>
+    <p class="subtitle">Track your learning progress and achievements.</p>
+
+    <!-- Summary Cards -->
+    <div class="summary-grid">
+
+      <!-- Total Points -->
+      <div class="summary-card">
+        <h3>Total Quiz Points</h3>
+        <p><span id="dashTotalPoints">0</span> pts</p>
+      </div>
+
+      <!-- Badges -->
+      <div class="summary-card">
+        <h3>Badges Earned</h3>
+        <p><span id="dashTotalBadges">0</span> Badges</p>
+        <!-- badge preview row -->
+        <div id="badgePreview" class="badge-preview"></div>
+      </div>
+
+
+      <!-- To-Do Summary -->
+      <div class="summary-card">
+        <h3>To-Do Summary</h3>
+        <p>
+          Total Tasks: <span id="dashTotalTasks">0</span><br>
+          Completed: <span id="dashCompletedTasks">0</span>
+        </p>
+      </div>
+
+    </div>
+
+    <!-- 📈 Subject Performance Table -->
+    <div class="subject-performance">
+      <h2>Subject-wise Performance</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left">Subject</th>
+            <th>Earned / Total</th>
+            <th>Performance (%)</th>
+          </tr>
+        </thead>
+
+        <tbody id="subjectPerfBody">
+          <!-- dashboard.js will fill rows dynamically -->
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact: <a href="mailto:support@techclassroom.com">support@techclassroom.com</a></p>
+    <p>&copy; 2025 Tech Classroom. All rights reserved.</p>
+  </footer>
+
+  <!-- To-Do Summary Script (localStorage sync) -->
+  <script>
+    const initTodo = () => {
+      const summary =
+        JSON.parse(localStorage.getItem("todoSummary")) || { total: 0, completed: 0 };
+
+      document.getElementById("dashTotalTasks").textContent = summary.total;
+      document.getElementById("dashCompletedTasks").textContent = summary.completed;
+    };
+
+    initTodo();
+
+    setInterval(() => {
+      const summary =
+        JSON.parse(localStorage.getItem("todoSummary")) || { total: 0, completed: 0 };
+
+      document.getElementById("dashTotalTasks").textContent = summary.total;
+      document.getElementById("dashCompletedTasks").textContent = summary.completed;
+    }, 1000);
+  </script>
+
+  <!-- Session + Logout -->
+  <script src="../js/config.js"></script>
+  <script src="../js/session.js"></script>
+  <script src="../js/auth_required.js"></script>
+  <script src="../js/logout.js"></script>
+
+  <!-- Dashboard data -->
+  <script src="../js/dashboard.js"></script>
+
+</body>
+</html>

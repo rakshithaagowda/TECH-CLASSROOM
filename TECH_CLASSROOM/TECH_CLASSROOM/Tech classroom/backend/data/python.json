@@ -1,0 +1,400 @@
+{
+  "subject": "python",
+  "levels": [
+    {
+      "level": 1,
+      "questions": [
+        {
+          "question": "What is the correct file extension for Python files?",
+          "options": [".py", ".pyt", ".pt", ".pyth"],
+          "answer": ".py",
+          "points": 5
+        },
+        {
+          "question": "Which keyword is used to define a function in Python?",
+          "options": ["func", "define", "def", "function"],
+          "answer": "def",
+          "points": 5
+        },
+        {
+          "question": "Which keyword is used to handle exceptions in Python?",
+          "options": ["try", "catch", "except", "error"],
+          "answer": "except",
+          "points": 5
+        },
+        {
+          "question": "Which data type is immutable in Python?",
+          "options": ["List", "Dictionary", "Tuple", "Set"],
+          "answer": "Tuple",
+          "points": 5
+        },
+        {
+          "question": "Which operator is used for exponentiation?",
+          "options": ["^", "**", "exp()", "^^"],
+          "answer": "**",
+          "points": 5
+        },
+        {
+          "question": "Which method converts a string to lowercase?",
+          "options": ["lower()", "down()", "case()", "strlower()"],
+          "answer": "lower()",
+          "points": 5
+        },
+        {
+          "question": "What is the output of: len('Python')?",
+          "options": ["5", "6", "7", "Error"],
+          "answer": "6",
+          "points": 5
+        },
+        {
+          "question": "Which function is used to get input from the user?",
+          "options": ["scan()", "input()", "read()", "user()"],
+          "answer": "input()",
+          "points": 5
+        },
+        {
+          "question": "What is the result of: 10 // 3?",
+          "options": ["3.33", "3", "4", "Error"],
+          "answer": "3",
+          "points": 5
+        },
+        {
+          "question": "Which is a valid variable name?",
+          "options": ["2name", "my-name", "my_name", "class"],
+          "answer": "my_name",
+          "points": 5
+        },
+        {
+          "question": "Which of the following is a boolean value?",
+          "options": ["TRUE", "Yes", "True", "1"],
+          "answer": "True",
+          "points": 5
+        },
+        {
+          "question": "Which symbol is used to start a comment?",
+          "options": ["//", "/*", "#", "<!--"],
+          "answer": "#",
+          "points": 5
+        },
+        {
+          "question": "Which function converts a value to an integer?",
+          "options": ["toInt()", "int()", "integer()", "convert_int()"],
+          "answer": "int()",
+          "points": 5
+        },
+        {
+          "question": "Which loop repeats a known number of times?",
+          "options": ["for", "while", "repeat", "loop"],
+          "answer": "for",
+          "points": 5
+        },
+        {
+          "question": "Which of the following is a mutable type?",
+          "options": ["Tuple", "String", "List", "Integer"],
+          "answer": "List",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "questions": [
+        {
+          "question": "What is the output: print([1,2] * 2)?",
+          "options": ["[1,2]*[1,2]", "[1,2,1,2]", "[2,4]", "Error"],
+          "answer": "[1,2,1,2]",
+          "points": 5
+        },
+        {
+          "question": "What does dict.get(key) return if the key is missing?",
+          "options": ["0", "None", "Error", "False"],
+          "answer": "None",
+          "points": 5
+        },
+        {
+          "question": "Which module is used for regular expressions?",
+          "options": ["regex", "pyregex", "re", "match"],
+          "answer": "re",
+          "points": 5
+        },
+        {
+          "question": "Which statement is used to handle exceptions?",
+          "options": ["exception", "try-except", "catch", "handler"],
+          "answer": "try-except",
+          "points": 5
+        },
+        {
+          "question": "What does list.append(x) do?",
+          "options": ["Adds x at end", "Adds x at beginning", "Removes x", "Sorts list"],
+          "answer": "Adds x at end",
+          "points": 5
+        },
+        {
+          "question": "What is the output: bool('False')?",
+          "options": ["False", "True", "Error", "0"],
+          "answer": "True",
+          "points": 5
+        },
+        {
+          "question": "Which function returns the absolute value?",
+          "options": ["abs()", "fabs()", "absolute()", "math.abs()"],
+          "answer": "abs()",
+          "points": 5
+        },
+        {
+          "question": "Which method removes and returns the last list item?",
+          "options": ["remove()", "pop()", "delete()", "end()"],
+          "answer": "pop()",
+          "points": 5
+        },
+        {
+          "question": "What does `pass` do?",
+          "options": ["Stops code", "Continues loop", "Does nothing", "Throws error"],
+          "answer": "Does nothing",
+          "points": 5
+        },
+        {
+          "question": "Which operator is used for membership testing?",
+          "options": ["in", "has", "contains", "exists"],
+          "answer": "in",
+          "points": 5
+        },
+        {
+          "question": "What is the output: list('ABC')?",
+          "options": ["['ABC']", "['A','B','C']", "ABC", "Error"],
+          "answer": "['A','B','C']",
+          "points": 5
+        },
+        {
+          "question": "Which is a Python built-in type?",
+          "options": ["stack", "queue", "tuple", "tree"],
+          "answer": "tuple",
+          "points": 5
+        },
+        {
+          "question": "Which module is used for math operations?",
+          "options": ["calc", "math", "numeric", "numbers"],
+          "answer": "math",
+          "points": 5
+        },
+        {
+          "question": "What is the output: 'Pyt' + 'hon'?",
+          "options": ["Python", "Pyth on", "Pyt hon", "Error"],
+          "answer": "Python",
+          "points": 5
+        },
+        {
+          "question": "Which method returns the index of an item in a list?",
+          "options": ["pos()", "get()", "index()", "find()"],
+          "answer": "index()",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "questions": [
+        {
+          "question": "What is the output: {1,2,3} & {2,3,4}?",
+          "options": ["{1,4}", "{2,3}", "{1,2,3,4}", "{3,4}"],
+          "answer": "{2,3}",
+          "points": 5
+        },
+        {
+          "question": "Which keyword creates a generator?",
+          "options": ["yield", "return", "generate", "create"],
+          "answer": "yield",
+          "points": 5
+        },
+        {
+          "question": "Which method is called when an object is created?",
+          "options": ["__start__", "__new__", "__init__", "__create__"],
+          "answer": "__init__",
+          "points": 5
+        },
+        {
+          "question": "Which library is used for data analysis?",
+          "options": ["numpy", "pandas", "math", "array"],
+          "answer": "pandas",
+          "points": 5
+        },
+        {
+          "question": "Which module handles date/time?",
+          "options": ["datetime", "timer", "clock", "dates"],
+          "answer": "datetime",
+          "points": 5
+        },
+        {
+          "question": "What does `strip()` do?",
+          "options": ["Removes spaces", "Removes leading/trailing spaces", "Removes tabs", "Removes special chars"],
+          "answer": "Removes leading/trailing spaces",
+          "points": 5
+        },
+        {
+          "question": "Which of these is a Python web framework?",
+          "options": ["Flask", "Django", "Both", "None"],
+          "answer": "Both",
+          "points": 5
+        },
+        {
+          "question": "What does `is` compare?",
+          "options": ["Value", "Memory address", "Type", "Length"],
+          "answer": "Memory address",
+          "points": 5
+        },
+        {
+          "question": "What is a closure?",
+          "options": ["Inner function with access to outer variables", "Anonymous function", "Recursive function", "None"],
+          "answer": "Inner function with access to outer variables",
+          "points": 5
+        },
+        {
+          "question": "Which keyword prevents a class from being inherited?",
+          "options": ["final", "sealed", "None in Python", "static"],
+          "answer": "None in Python",
+          "points": 5
+        },
+        {
+          "question": "Which library is used for machine learning?",
+          "options": ["tensorflow", "sklearn", "pytorch", "All"],
+          "answer": "All",
+          "points": 5
+        },
+        {
+          "question": "What is a lambda function?",
+          "options": ["Named function", "Short anonymous function", "Generator", "Decorator"],
+          "answer": "Short anonymous function",
+          "points": 5
+        },
+        {
+          "question": "Which protocol does requests library use?",
+          "options": ["HTTP", "FTP", "SSH", "SMTP"],
+          "answer": "HTTP",
+          "points": 5
+        },
+        {
+          "question": "Which operator unpacks iterable?",
+          "options": ["*", "**", "&", "$"],
+          "answer": "*",
+          "points": 5
+        },
+        {
+          "question": "Which structure does Python use for recursion limit?",
+          "options": ["sys.limit", "recursion.config", "sys.setrecursionlimit()", "limit()"],
+          "answer": "sys.setrecursionlimit()",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "questions": [
+        {
+          "question": "Which Python feature supports asynchronous programming?",
+          "options": ["threads", "async/await", "multiprocessing", "coroutines"],
+          "answer": "async/await",
+          "points": 5
+        },
+        {
+          "question": "What is GIL in Python?",
+          "options": [
+            "Global Interface Lock",
+            "Global Interpreter Lock",
+            "General Input Lock",
+            "Global Instance Layer"
+          ],
+          "answer": "Global Interpreter Lock",
+          "points": 5
+        },
+        {
+          "question": "Which library is used for deep learning?",
+          "options": ["scikit-learn", "tensorflow", "pandas", "numpy"],
+          "answer": "tensorflow",
+          "points": 5
+        },
+        {
+          "question": "Which method releases memory of an object?",
+          "options": ["__del__", "__delete__", "free()", "release()"],
+          "answer": "__del__",
+          "points": 5
+        },
+        {
+          "question": "Which of these is a decorator?",
+          "options": ["@", "#", "$", "&"],
+          "answer": "@",
+          "points": 5
+        },
+        {
+          "question": "Which concept allows method overriding?",
+          "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+          "answer": "Polymorphism",
+          "points": 5
+        },
+        {
+          "question": "Which module is used for multithreading?",
+          "options": ["threading", "multiprocess", "async", "time"],
+          "answer": "threading",
+          "points": 5
+        },
+        {
+          "question": "Which sorting algorithm is built-in in Python?",
+          "options": ["Merge Sort", "TimSort", "QuickSort", "Bubble Sort"],
+          "answer": "TimSort",
+          "points": 5
+        },
+        {
+          "question": "Which module is used for serialization?",
+          "options": ["pickle", "json", "marshal", "All"],
+          "answer": "All",
+          "points": 5
+        },
+        {
+          "question": "Which function is used to inspect objects?",
+          "options": ["object()", "inspect()", "look()", "see()"],
+          "answer": "inspect()",
+          "points": 5
+        },
+        {
+          "question": "Which concept is used in generators to pause execution?",
+          "options": ["yield", "pause", "wait", "stop"],
+          "answer": "yield",
+          "points": 5
+        },
+        {
+          "question": "What is monkey patching?",
+          "options": [
+            "Modifying code at runtime",
+            "Replacing memory",
+            "Debugging technique",
+            "Caching functions"
+          ],
+          "answer": "Modifying code at runtime",
+          "points": 5
+        },
+        {
+          "question": "Which module interacts with the operating system?",
+          "options": ["os", "sys", "platform", "All"],
+          "answer": "All",
+          "points": 5
+        },
+        {
+          "question": "What is a metaclass in Python?",
+          "options": [
+            "Class of a class",
+            "Class instance",
+            "Object instance",
+            "Factory pattern"
+          ],
+          "answer": "Class of a class",
+          "points": 5
+        },
+        {
+          "question": "Which algorithm is used in Python dictionaries?",
+          "options": ["Hashing", "Binary search", "Tree map", "Sorting"],
+          "answer": "Hashing",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

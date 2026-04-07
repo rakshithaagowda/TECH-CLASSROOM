@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Classroom | Quiz</title>
+  <link rel="stylesheet" href="../css/quiz.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Tech Classroom</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="Classroom.html">Classroom</a></li>
+      <li><a href="quiz.html" class="active">Quiz</a></li>
+      <li><a href="chatbot.html">Chatbot</a></li>
+      <li><a href="todo.html">To-Do</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Quiz Section -->
+  <section class="quiz-section">
+    <div class="container">
+
+      <!-- Step 1: Subject Selection -->
+      <div id="subject-selection">
+        <h2>Select Subject</h2>
+        <div class="feature-grid">
+          <div class="subject-card" data-subject="python">Python</div>
+          <div class="subject-card" data-subject="ds">Data Structures</div>
+          <div class="subject-card" data-subject="java">Java</div>
+          <div class="subject-card" data-subject="cn">Computer Networks</div>
+          <div class="subject-card" data-subject="os">Operating Systems</div>
+        </div>
+      </div>
+
+      <!-- Step 2: Level Selection -->
+      <div id="level-selection" style="display:none;">
+        <h2>Select Level</h2>
+
+        <div class="level-cards-wrapper">
+
+          <!-- LEVEL 1 (Always unlocked) -->
+          <div class="level-card unlocked" data-level="1">
+            Level 1
+          </div>
+
+          <!-- LEVEL 2 -->
+          <div class="level-card locked" data-level="2">
+            Level 2 🔒
+          </div>
+
+          <!-- LEVEL 3 -->
+          <div class="level-card locked" data-level="3">
+            Level 3 🔒
+          </div>
+
+          <!-- LEVEL 4 -->
+          <div class="level-card locked" data-level="4">
+            Level 4 🔒
+          </div>
+
+        </div>
+
+        <button id="start-quiz-btn" style="display:none;">Start Quiz</button>
+      </div>
+
+      <!-- Step 3: Quiz Screen -->
+      <div id="quiz-container" style="display:none;"></div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tech Classroom</p>
+  </footer>
+
+<script src="../js/config.js"></script>
+<script src="../js/quiz.js"></script>
+
+</body>
+</html>

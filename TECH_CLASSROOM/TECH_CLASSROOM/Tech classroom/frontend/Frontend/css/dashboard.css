@@ -1,0 +1,147 @@
+/* MAIN DASHBOARD LAYOUT */
+.dashboard {
+  text-align: center;
+  padding: 4rem 8%;
+  background-color: #e8dcff;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dashboard h1 {
+  font-size: 2.5rem;
+  color: #3a0072;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+/* SUMMARY CARDS */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.summary-card {
+  background-color: #c5b2ff;
+  color: #3a0072;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+}
+
+.summary-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.summary-card p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.summary-card span {
+  font-size: 2rem;
+  color: #6e3ae8;
+}
+
+/* BADGE PREVIEW ROW */
+.badge-preview {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 26px;
+  flex-wrap: wrap;
+  transition: all 0.3s ease;
+}
+
+.badge-preview span {
+  transition: transform 0.25s ease;
+}
+
+.badge-preview span:hover {
+  transform: scale(1.2);
+}
+
+/* SUBJECT PERFORMANCE TABLE */
+.subject-performance {
+  background-color: #c5b2ff;
+  color: #3a0072;
+  border-radius: 20px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 750px;
+  text-align: center;
+}
+
+.subject-performance h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #3a0072;
+}
+
+.subject-performance table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.subject-performance th,
+.subject-performance td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.subject-performance th {
+  background-color: #bca4ff;
+  color: #3a0072;
+  font-weight: 600;
+}
+
+.subject-performance tr:last-child td {
+  border-bottom: none;
+}
+
+/* FOOTER */
+footer {
+  background-color: #c5b2ff;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #3a0072;
+  font-size: 0.95rem;
+  margin-top: auto;
+}
+
+/* MOBILE RESPONSIVE FIXES */
+@media (max-width: 600px) {
+  .dashboard {
+    padding: 3rem 5%;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-performance {
+    padding: 1.5rem;
+  }
+
+  .badge-preview {
+    font-size: 22px;
+  }
+}

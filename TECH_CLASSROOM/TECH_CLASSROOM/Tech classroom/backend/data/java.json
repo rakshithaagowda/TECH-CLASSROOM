@@ -1,0 +1,444 @@
+{
+  "subject": "java",
+  "levels": [
+    {
+      "level": 1,
+      "questions": [
+    {
+     
+      "question": "Which of the following is NOT a Java feature?",
+      "options": ["Object-Oriented", "Platform Independent", "Pointers", "Robust"],
+      "answer": "Pointers",
+      "points": 5
+    },
+    {
+      
+      "question": "Which keyword is used to define a subclass in Java?",
+      "options": ["extends", "implements", "inherits", "super"],
+      "answer": "extends",
+      "points": 5
+    },
+    {
+      
+      "question": "Which data type is used to store whole numbers?",
+      "options": ["double", "int", "boolean", "char"],
+      "answer": "int",
+      "points": 5
+    },
+    {
+      
+      "question": "Which of these is a valid Java identifier?",
+      "options": ["2value", "_name", "first-name", "class"],
+      "answer": "_name",
+      "points": 5
+    },
+    {
+      
+      "question": "Java source code is compiled into:",
+      "options": ["Machine code", "Bytecode", "Assembly code", "Native code"],
+      "answer": "Bytecode",
+      "points": 5
+    },
+    {
+      
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["start()", "main()", "run()", "execute()"],
+      "answer": "main()",
+      "points": 5
+    },
+    {
+      
+      "question": "Which keyword is used to create an object?",
+      "options": ["create", "make", "new", "object"],
+      "answer": "new",
+      "points": 5
+    },
+    {
+     
+      "question": "Which operator is used for logical AND?",
+      "options": ["&", "&&", "|", "||"],
+      "answer": "&&",
+      "points": 5
+    },
+    {
+      
+      "question": "Which package contains the Scanner class?",
+      "options": ["java.io", "java.util", "java.lang", "java.text"],
+      "answer": "java.util",
+      "points": 5
+    },
+    {
+     
+      "question": "Which of the following is a wrapper class?",
+      "options": ["integer", "Integer", "int", "number"],
+      "answer": "Integer",
+      "points": 5
+    },
+    {
+      
+      "question": "Which keyword prevents a variable from being modified?",
+      "options": ["static", "final", "constant", "immutable"],
+      "answer": "final",
+      "points": 5
+    },
+    {
+      
+      "question": "Which loop is guaranteed to execute at least once?",
+      "options": ["for", "while", "do-while", "foreach"],
+      "answer": "do-while",
+      "points": 5
+    },
+    {
+      
+      "question": "Which method is called when an object is created?",
+      "options": ["initializer", "constructor", "main", "setup"],
+      "answer": "constructor",
+      "points": 5
+    },
+    {
+      
+      "question": "What is the default value of an int variable?",
+      "options": ["0", "null", "undefined", "1"],
+      "answer": "0",
+      "points": 5
+    },
+    {
+      
+      "question": "Which of the following is used to handle exceptions?",
+      "options": ["throw-catch", "try-catch", "catch-final", "error-handling"],
+      "answer": "try-catch",
+      "points": 5
+    }
+  ]
+    },
+     {
+      "level": 2,
+      "questions": [
+    {
+     
+      "question": "Which of the following is used for method overloading?",
+      "options": ["Same name, different parameters", "Different name, same parameters", "Same name, same parameters", "Same name, different return type only"],
+      "answer": "Same name, different parameters",
+      "points": 5
+    },
+    {
+      
+      "question": "Which keyword is used for inheritance?",
+      "options": ["super", "extends", "base", "implements"],
+      "answer": "extends",
+      "points": 5
+    },
+    {
+      
+      "question": "Which access modifier provides package-level access?",
+      "options": ["private", "public", "protected", "default"],
+      "answer": "default",
+      "points": 5
+    },
+    {
+      
+      "question": "Which class is the superclass of all Java classes?",
+      "options": ["System", "Object", "Class", "Runtime"],
+      "answer": "Object",
+      "points": 5
+    },
+    {
+     
+      "question": "What does JVM stand for?",
+      "options": ["Java Variable Machine", "Java Virtual Machine", "Java Vendor Machine", "Java Verified Machine"],
+      "answer": "Java Virtual Machine",
+      "points": 5
+    },
+    {
+      
+      "question": "Which collection does NOT allow duplicates?",
+      "options": ["List", "Set", "ArrayList", "Vector"],
+      "answer": "Set",
+      "points": 5
+    },
+    {
+      
+      "question": "Which interface is used for sorting?",
+      "options": ["Comparator", "Iterable", "Collection", "RandomAccess"],
+      "answer": "Comparator",
+      "points": 5
+    },
+    {
+      
+      "question": "What is the default value of a boolean variable?",
+      "options": ["true", "false", "0", "null"],
+      "answer": "false",
+      "points": 5
+    },
+    {
+      
+      "question": "Which keyword is used to refer to the current object?",
+      "options": ["this", "self", "current", "object"],
+      "answer": "this",
+      "points": 5
+    },
+    {
+      
+      "question": "Which concept allows a subclass to define its own version of a method?",
+      "options": ["Overloading", "Overriding", "Abstraction", "Encapsulation"],
+      "answer": "Overriding",
+      "points": 5
+    },
+    {
+      
+      "question": "Which type of class cannot be instantiated?",
+      "options": ["Static class", "Abstract class", "Final class", "Derived class"],
+      "answer": "Abstract class",
+      "points": 5
+    },
+    {
+      
+      "question": "Which type of variable is shared among all instances?",
+      "options": ["Instance variable", "Static variable", "Local variable", "Private variable"],
+      "answer": "Static variable",
+      "points": 5
+    },
+    {
+      "question": "What does JIT compiler do?",
+      "options": ["Compiles entire code at once", "Compiles bytecode to machine code at runtime", "Checks syntax", "Loads classes"],
+      "answer": "Compiles bytecode to machine code at runtime",
+      "points": 5
+    },
+    {
+     
+      "question": "Which statement is used to manually throw an exception?",
+      "options": ["throws", "throw", "error", "raise"],
+      "answer": "throw",
+      "points": 5
+    },
+    {
+      
+      "question": "Which keyword is used to inherit multiple interfaces?",
+      "options": ["extends", "implements", "inherits", "connect"],
+      "answer": "implements",
+      "points": 5
+    }
+  ]
+},
+ {
+      "level": 3,
+      "questions": [
+
+    {
+     
+      "question": "Which type of class contains only abstract methods and final static variables?",
+      "options": ["Abstract class", "Concrete class", "Interface", "Utility class"],
+      "answer": "Interface",
+      "points": 5
+    },
+    {
+     
+      "question": "Which keyword prevents method overriding?",
+      "options": ["static", "final", "protected", "sealed"],
+      "answer": "final",
+      "points": 5
+    },
+    {
+      
+      "question": "Which exception is thrown when dividing by zero?",
+      "options": ["NullPointerException", "ArithmeticException", "RuntimeException", "NumberFormatException"],
+      "answer": "ArithmeticException",
+      "points": 5
+    },
+    {
+     
+      "question": "What does the finalize() method do?",
+      "options": ["Initializes objects", "Cleans up resources before GC", "Deletes objects", "Handles exceptions"],
+      "answer": "Cleans up resources before GC",
+      "points": 5
+    },
+    {
+      
+      "question": "Which collection allows key-value mapping?",
+      "options": ["List", "Set", "Map", "Queue"],
+      "answer": "Map",
+      "points": 5
+    },
+    {
+     
+      "question": "Which class is used for reading input from the console?",
+      "options": ["Scanner", "InputReader", "ConsoleReader", "Buffer"],
+      "answer": "Scanner",
+      "points": 5
+    },
+    {
+      
+      "question": "What is method overriding determined by?",
+      "options": ["Compile-time", "Runtime", "Linker", "JVM interpreter"],
+      "answer": "Runtime",
+      "points": 5
+    },
+    {
+      
+      "question": "Which thread method pauses execution for a given time?",
+      "options": ["stop()", "wait()", "sleep()", "pause()"],
+      "answer": "sleep()",
+      "points": 5
+    },
+    {
+      
+      "question": "Which class is used for creating immutable objects?",
+      "options": ["String", "StringBuilder", "StringBuffer", "CharBuffer"],
+      "answer": "String",
+      "points": 5
+    },
+    {
+      "question": "Which type of polymorphism uses method overriding?",
+      "options": ["Static", "Dynamic", "Compile-time", "Operator polymorphism"],
+      "answer": "Dynamic",
+      "points": 5
+    },
+    {
+      
+      "question": "Which data structure does ArrayList use internally?",
+      "options": ["LinkedList", "Dynamic Array", "Hash table", "Tree map"],
+      "answer": "Dynamic Array",
+      "points": 5
+    },
+    {
+      
+      "question": "Which class is synchronized?",
+      "options": ["ArrayList", "HashMap", "Vector", "LinkedList"],
+      "answer": "Vector",
+      "points": 5
+    },
+    {
+      
+      "question": "Which of these is NOT a type of inheritance in Java?",
+      "options": ["Single", "Multilevel", "Multiple (via interfaces)", "Hybrid (via classes)"],
+      "answer": "Hybrid (via classes)",
+      "points": 5
+    },
+    {
+      
+      "question": "What is the output type of hashCode()?",
+      "options": ["double", "String", "int", "boolean"],
+      "answer": "int",
+      "points": 5
+    },
+    {
+      
+      "question": "Which block always executes regardless of an exception?",
+      "options": ["try", "catch", "finally", "throw"],
+      "answer": "finally",
+      "points": 5
+    }
+  ]
+},
+ {
+      "level": 4,
+      "questions": [
+    {
+     
+      "question": "Which garbage collection algorithm is used by default in Java?",
+      "options": ["Mark-Sweep", "Copying GC", "G1 Collector", "Parallel GC"],
+      "answer": "G1 Collector",
+      "points": 5
+    },
+    {
+      
+      "question": "Which feature enables memory-efficient string storage?",
+      "options": ["StringBuffer", "String literal pool", "StringBuilder", "Memory map"],
+      "answer": "String literal pool",
+      "points": 5
+    },
+    {
+      
+      "question": "Which concept allows a class to inherit multiple behaviors?",
+      "options": ["Multiple inheritance via classes", "Interface implementation", "Operator overloading", "Dynamic linking"],
+      "answer": "Interface implementation",
+      "points": 5
+    },
+    {
+      
+      "question": "Which of the following is TRUE about synchronized methods?",
+      "options": ["They improve performance", "They lock the object", "They disable polymorphism", "They compile faster"],
+      "answer": "They lock the object",
+      "points": 5
+    },
+    {
+      
+      "question": "Which class in Java is thread-safe?",
+      "options": ["HashMap", "TreeMap", "Hashtable", "EnumMap"],
+      "answer": "Hashtable",
+      "points": 5
+    },
+    {
+      
+      "question": "Which method wakes up a waiting thread?",
+      "options": ["notify()", "sleep()", "stop()", "interrupt()"],
+      "answer": "notify()",
+      "points": 5
+    },
+    {
+      
+      "question": "Which class is used for high-performance buffered reading?",
+      "options": ["FileReader", "BufferedReader", "Scanner", "DataReader"],
+      "answer": "BufferedReader",
+      "points": 5
+    },
+    {
+      
+      "question": "Which type of class loads classes dynamically?",
+      "options": ["MemoryLoader", "ClassLoader", "PackageLoader", "DynamicImporter"],
+      "answer": "ClassLoader",
+      "points": 5
+    },
+    {
+      
+      "question": "Which annotation suppresses compiler warnings?",
+      "options": ["@Stop", "@Ignore", "@SuppressWarnings", "@Override"],
+      "answer": "@SuppressWarnings",
+      "points": 5
+    },
+    {
+      
+      "question": "Java's memory is divided into:",
+      "options": ["Stack only", "Heap only", "Stack & Heap", "Static only"],
+      "answer": "Stack & Heap",
+      "points": 5
+    },
+    {
+     
+      "question": "Which class implements Map but maintains insertion order?",
+      "options": ["HashMap", "TreeMap", "LinkedHashMap", "EnumMap"],
+      "answer": "LinkedHashMap",
+      "points": 5
+    },
+    {
+      
+      "question": "Which of the following allows thread communication?",
+      "options": ["sleep(), stop()", "wait(), notify()", "pause(), continue()", "interrupt(), destroy()"],
+      "answer": "wait(), notify()",
+      "points": 5
+    },
+    {
+      
+      "question": "Which Java keyword prevents a class from being extended?",
+      "options": ["static", "final", "const", "sealed"],
+      "answer": "final",
+      "points": 5
+    },
+    {
+      
+      "question": "Which concept does Java use for memory management?",
+      "options": ["Manual memory allocation", "Garbage collection", "Heap reservation", "Direct pointer access"],
+      "answer": "Garbage collection",
+      "points": 5
+    },
+    {
+     
+      "question": "Which class provides mutable strings with thread-safety?",
+      "options": ["String", "StringBuffer", "StringBuilder", "CharBuffer"],
+      "answer": "StringBuffer",
+      "points": 5
+    }
+  ]
+}
+  ]
+}

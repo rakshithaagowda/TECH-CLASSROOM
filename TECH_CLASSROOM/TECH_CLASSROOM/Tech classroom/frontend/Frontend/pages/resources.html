@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Classroom | Resources</title>
+
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/resources.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Tech Classroom</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="Classroom.html">Classroom</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="chatbot.html">Chatbot</a></li>
+      <li><a href="todo.html">To-Do</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="resources.html" class="active">Resources</a></li>
+
+      <li><a id="loginLink" href="login.html">Login</a></li>
+      <li><a id="logoutBtn" style="display:none;">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="resources">
+    <h1>Study Resources</h1>
+    <p class="subtitle">Click a subject to explore notes, PDFs, videos, and tutorials.</p>
+
+    <!-- Subject Cards -->
+    <div class="resource-grid">
+      <div class="resource-card" data-subject="python">Python</div>
+      <div class="resource-card" data-subject="ds">Data Structures</div>
+      <div class="resource-card" data-subject="java">Java</div>
+      <div class="resource-card" data-subject="cn">Computer Networks</div>
+      <div class="resource-card" data-subject="os">Operating Systems</div>
+    </div>
+
+    <!-- Resources List -->
+    <div id="resourceList" class="resource-list" style="display:none;">
+      <h2 id="resourceTitle"></h2>
+      <ul id="resourceItems"></ul>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tech Classroom</p>
+  </footer>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/session.js"></script>
+  <script src="../js/logout.js"></script>
+  <script src="../js/resources.js"></script>
+
+</body>
+</html>

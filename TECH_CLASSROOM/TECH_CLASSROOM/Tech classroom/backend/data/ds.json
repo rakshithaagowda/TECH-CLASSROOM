@@ -1,0 +1,444 @@
+{
+  "subject": "java",
+  "levels": [
+    {
+      "level": 1,
+      "questions": [
+    {
+      
+      "question": "What is the time complexity of accessing an element in an array?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(1)",
+      "points": 5
+    },
+    {
+     
+      "question": "Which data structure follows FIFO order?",
+      "options": ["Stack", "Queue", "Tree", "Graph"],
+      "answer": "Queue",
+      "points": 5
+    },
+    {
+      
+      "question": "Which data structure uses LIFO?",
+      "options": ["Queue", "Tree", "Stack", "Heap"],
+      "answer": "Stack",
+      "points": 5
+    },
+    {
+     
+      "question": "Which of these is a linear data structure?",
+      "options": ["Graph", "Tree", "Linked List", "Binary Heap"],
+      "answer": "Linked List",
+      "points": 5
+    },
+    {
+      
+      "question": "What does a node in a linked list store?",
+      "options": ["Data only", "Pointer only", "Data and pointer", "Index"],
+      "answer": "Data and pointer",
+      "points": 5
+    },
+    {
+     
+      "question": "Which data structure is used for recursion?",
+      "options": ["Queue", "Array", "Graph", "Stack"],
+      "answer": "Stack",
+      "points": 5
+    },
+    {
+     
+      "question": "Which of these is NOT a type of linked list?",
+      "options": ["Singly", "Doubly", "Circular", "Binary"],
+      "answer": "Binary",
+      "points": 5
+    },
+    {
+      
+      "question": "The smallest element in a min-heap is found at:",
+      "options": ["Last index", "Middle", "Root node", "Leaf node"],
+      "answer": "Root node",
+      "points": 5
+    },
+    {
+      
+      "question": "A binary tree can have a maximum of how many children per node?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2",
+      "points": 5
+    },
+    {
+      
+      "question": "Which search works only on sorted arrays?",
+      "options": ["Linear search", "Binary search", "Jump search", "Breadth-first search"],
+      "answer": "Binary search",
+      "points": 5
+    },
+    {
+    
+      "question": "Which of these allows random access?",
+      "options": ["Array", "Linked List", "Queue", "Stack"],
+      "answer": "Array",
+      "points": 5
+    },
+    {
+     
+      "question": "Which representation is used for sparse matrices?",
+      "options": ["Full matrix", "3-tuple format", "Heap format", "Tree format"],
+      "answer": "3-tuple format",
+      "points": 5
+    },
+    {
+      
+      "question": "Which traversal visits root → left → right?",
+      "options": ["Inorder", "Preorder", "Postorder", "Level order"],
+      "answer": "Preorder",
+      "points": 5
+    },
+    {
+     
+      "question": "A queue can be implemented using:",
+      "options": ["Tree", "Graph", "Array or Linked List", "Heap"],
+      "answer": "Array or Linked List",
+      "points": 5
+    },
+    {
+      
+      "question": "Which structure is best for implementing BFS?",
+      "options": ["Stack", "Queue", "Heap", "Tree"],
+      "answer": "Queue",
+      "points": 5
+    }
+  ]
+},
+ {
+      "level": 2,
+      "questions": [
+    {
+      
+      "question": "What is the time complexity to insert at the head of a linked list?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "answer": "O(1)",
+      "points": 5
+    },
+    {
+      
+      "question": "Which tree traversal gives sorted output for BST?",
+      "options": ["Preorder", "Inorder", "Postorder", "Level order"],
+      "answer": "Inorder",
+      "points": 5
+    },
+    {
+      
+      "question": "Which of these sorting algorithms is NOT stable?",
+      "options": ["Merge Sort", "Bubble Sort", "Insertion Sort", "Quick Sort"],
+      "answer": "Quick Sort",
+      "points": 5
+    },
+    {
+     
+      "question": "In a max-heap, the largest value is at:",
+      "options": ["Leaf", "Middle", "Root", "Any random node"],
+      "answer": "Root",
+      "points": 5
+    },
+    {
+      
+      "question": "What is the height of a complete binary tree with N nodes?",
+      "options": ["log N", "N", "N/2", "sqrt(N)"],
+      "answer": "log N",
+      "points": 5
+    },
+    {
+      
+      "question": "Which data structure is used in DFS?",
+      "options": ["Queue", "Stack", "Heap", "Priority queue"],
+      "answer": "Stack",
+      "points": 5
+    },
+    {
+     
+      "question": "Hash collisions can be resolved using:",
+      "options": ["Linear probing", "Chaining", "Rehashing", "All of the above"],
+      "answer": "All of the above",
+      "points": 5
+    },
+    {
+      
+      "question": "The worst-case time complexity of searching in a balanced BST is:",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)",
+      "points": 5
+    },
+    {
+     
+      "question": "Which is an application of stack?",
+      "options": ["Undo operations", "Job scheduling", "BFS", "Heap sorting"],
+      "answer": "Undo operations",
+      "points": 5
+    },
+    {
+      
+      "question": "Which type of graph contains no cycles?",
+      "options": ["Directed", "Undirected", "Tree", "Weighted"],
+      "answer": "Tree",
+      "points": 5
+    },
+    {
+      
+      "question": "Adjacency list is preferred over matrix when:",
+      "options": ["Graph is dense", "Graph is sparse", "Graph is directed", "Graph is weighted"],
+      "answer": "Graph is sparse",
+      "points": 5
+    },
+    {
+     
+      "question": "Which algorithm finds shortest path in a weighted graph?",
+      "options": ["DFS", "BFS", "Dijkstra", "Prim"],
+      "answer": "Dijkstra",
+      "points": 5
+    },
+    {
+      
+      "question": "Circular queue avoids which condition?",
+      "options": ["Underflow", "Overflow", "Memory wastage due to unused space", "Infinite loop"],
+      "answer": "Memory wastage due to unused space",
+      "points": 5
+    },
+    {
+      
+      "question": "Which tree automatically balances itself?",
+      "options": ["Binary tree", "AVL tree", "Heap", "Threaded tree"],
+      "answer": "AVL tree",
+      "points": 5
+    },
+    {
+      
+      "question": "Which algorithm is used in finding minimum spanning tree?",
+      "options": ["Bellman-Ford", "Kruskal", "BFS", "Floyd-Warshall"],
+      "answer": "Kruskal",
+      "points": 5
+    }
+  ]
+},
+ {
+      "level": 3,
+      "questions": [
+    {
+    
+      "question": "What is the time complexity of heapify operation?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "answer": "O(log n)",
+      "points": 5
+    },
+    {
+      
+      "question": "Which algorithm is used for topological sorting?",
+      "options": ["BFS", "DFS", "Dijkstra", "Prim"],
+      "answer": "DFS",
+      "points": 5
+    },
+    {
+      
+      "question": "In red-black tree, which property must always hold?",
+      "options": ["Root is red", "Every red node has black children", "Leaves are white", "Tree must be full"],
+      "answer": "Every red node has black children",
+      "points": 5
+    },
+    {
+      
+      "question": "What is the worst-case search time in an unbalanced BST?",
+      "options": ["O(log n)", "O(n)", "O(1)", "O(n log n)"],
+      "answer": "O(n)",
+      "points": 5
+    },
+    {
+     
+      "question": "Which hashing method uses a secondary hash function?",
+      "options": ["Linear probing", "Double hashing", "Chaining", "Quadratic probing"],
+      "answer": "Double hashing",
+      "points": 5
+    },
+    {
+     
+      "question": "The maximum number of nodes at level k of a binary tree is:",
+      "options": ["2^(k+1)", "2^k", "k!", "k^2"],
+      "answer": "2^k",
+      "points": 5
+    },
+    {
+     
+      "question": "Which data structure is best for prefix matching?",
+      "options": ["Trie", "Heap", "AVL tree", "Graph"],
+      "answer": "Trie",
+      "points": 5
+    },
+    {
+      
+      "question": "Bellman-Ford algorithm handles which special case?",
+      "options": ["Negative weights", "Cycles", "Disconnected graph", "Self-loops"],
+      "answer": "Negative weights",
+      "points": 5
+    },
+    {
+     
+      "question": "Which technique is used in merge sort?",
+      "options": ["Greedy", "Backtracking", "Divide and Conquer", "Dynamic Programming"],
+      "answer": "Divide and Conquer",
+      "points": 5
+    },
+    {
+    
+      "question": "In BFS, how are nodes visited?",
+      "options": ["Depth first", "Level by level", "Randomly", "Backwards"],
+      "answer": "Level by level",
+      "points": 5
+    },
+    {
+     
+      "question": "Which tree traversal uses a queue?",
+      "options": ["Inorder", "Preorder", "Postorder", "Level order"],
+      "answer": "Level order",
+      "points": 5
+    },
+    {
+      "question": "Which algorithm is used in finding articulation points?",
+      "options": ["Tarjan's Algorithm", "Dijkstra", "Floyd-Warshall", "Kruskal"],
+      "answer": "Tarjan's Algorithm",
+      "points": 5
+    },
+    {
+      
+      "question": "Which tree is used to implement priority queues?",
+      "options": ["Binary tree", "AVL tree", "Heap", "Trie"],
+      "answer": "Heap",
+      "points": 5
+    },
+    {
+     
+      "question": "Which of the following is NOT used in dynamic programming?",
+      "options": ["Optimal substructure", "Overlapping subproblems", "Greedy choice", "Memoization"],
+      "answer": "Greedy choice",
+      "points": 5
+    },
+    {
+     
+      "question": "Which data structure helps detect cycles in graphs?",
+      "options": ["Queue", "Stack", "Disjoint Set (Union-Find)", "Heap"],
+      "answer": "Disjoint Set (Union-Find)",
+      "points": 5
+    }
+  ]
+},
+ {
+      "level": 4,
+      "questions": [
+    {
+      
+      "question": "What is the amortized time complexity of push() in dynamic stack (array based)?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+      "answer": "O(1)",
+      "points": 5
+    },
+    {
+      
+      "question": "Splay trees provide which type of complexity?",
+      "options": ["Worst-case O(log n)", "Amortized O(log n)", "O(n)", "O(1)"],
+      "answer": "Amortized O(log n)",
+      "points": 5
+    },
+    {
+      
+      "question": "Which shortest path algorithm works with both positive and negative weights?",
+      "options": ["Dijkstra", "A*", "Bellman-Ford", "Prim"],
+      "answer": "Bellman-Ford",
+      "points": 5
+    },
+    {
+     
+      "question": "Which algorithm is used in string pattern searching?",
+      "options": ["Heap Sort", "KMP Algorithm", "Kruskal", "Prim"],
+      "answer": "KMP Algorithm",
+      "points": 5
+    },
+    {
+     
+      "question": "What is the time complexity of building a heap?",
+      "options": ["O(n log n)", "O(log n)", "O(n)", "O(1)"],
+      "answer": "O(n)",
+      "points": 5
+    },
+    {
+      
+      "question": "Which algorithm is used in finding strongly connected components?",
+      "options": ["Dijkstra", "Tarjan", "Prim", "Kruskal"],
+      "answer": "Tarjan",
+      "points": 5
+    },
+    {
+      
+      "question": "Which data structure optimizes LRU cache implementation?",
+      "options": ["Array + stack", "HashMap + Doubly Linked List", "Trie + Heap", "Queue + Array"],
+      "answer": "HashMap + Doubly Linked List",
+      "points": 5
+    },
+    {
+     
+      "question": "Which algorithm solves the all-pairs shortest path problem?",
+      "options": ["Dijkstra", "Floyd-Warshall", "Prim", "Kruskal"],
+      "answer": "Floyd-Warshall",
+      "points": 5
+    },
+    {
+     
+      "question": "Which rotation is used in AVL tree insertion?",
+      "options": ["Left rotation", "Right rotation", "Both left and right", "No rotation"],
+      "answer": "Both left and right",
+      "points": 5
+    },
+    {
+     
+      "question": "Which algorithm uses DP to solve longest common subsequence?",
+      "options": ["DFS", "Greedy", "Dynamic Programming Matrix", "BFS"],
+      "answer": "Dynamic Programming Matrix",
+      "points": 5
+    },
+    {
+      
+      "question": "In union-find, path compression improves complexity to:",
+      "options": ["O(n)", "O(log n)", "Almost O(1)", "O(n log n)"],
+      "answer": "Almost O(1)",
+      "points": 5
+    },
+    {
+     
+      "question": "Which heap is used in Dijkstra’s algorithm?",
+      "options": ["Binary heap", "Binomial heap", "Fibonacci heap", "Pairing heap"],
+      "answer": "Fibonacci heap",
+      "points": 5
+    },
+    {
+     
+      "question": "Which algorithm is used for maximum flow?",
+      "options": ["Kruskal", "Ford-Fulkerson", "A*", "Prim"],
+      "answer": "Ford-Fulkerson",
+      "points": 5
+    },
+    {
+     
+      "question": "A B-tree of order m can have maximum how many children?",
+      "options": ["m", "m-1", "m+1", "2m"],
+      "answer": "m",
+      "points": 5
+    },
+    {
+    
+      "question": "Which structure is best for implementing autocomplete?",
+      "options": ["HashMap", "Trie", "Heap", "Binary tree"],
+      "answer": "Trie",
+      "points": 5
+    }
+  ]
+}
+]
+}

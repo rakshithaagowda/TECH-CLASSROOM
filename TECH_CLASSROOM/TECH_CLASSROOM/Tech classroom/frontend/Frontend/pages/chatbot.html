@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quiz Chatbot</title>
+
+<!-- Your chatbot CSS -->
+<link rel="stylesheet" href="../css/chatbot.css">
+
+<!-- Your main UI stylesheet: navbar + footer -->
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<!-- 🌟 NAVBAR (same UI everywhere) -->
+<nav class="navbar">
+    <div class="logo">Tech Classroom</div>
+    <ul class="nav-links">
+        <li><a href="classroom.html">Classroom</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="chatbot.html" class="active">Chatbot</a></li>
+        <li><a href="todo.html">To-Do</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="resources.html">Resources</a></li>
+    </ul>
+</nav>
+
+<!-- 🌟 PAGE CENTER LAYOUT -->
+<div class="page-container">
+
+    <!-- Your original chatbot box -->
+    <div class="chat-container">
+
+      <h2>Quiz Assistant</h2>
+
+      <div id="chat-box"></div>
+
+      <div class="input-area">
+        <input id="user-input" type="text" placeholder="Ask anything from your syllabus...">
+        <button id="send-btn">Send</button>
+      </div>
+
+    </div>
+
+</div>
+
+<!-- 🌟 FOOTER (same UI everywhere) -->
+<footer class="footer">
+    <p>© 2025 Tech Classroom</p>
+</footer>
+
+<!-- JS Files -->
+<script src="../js/config.js"></script>
+<script src="../js/chatbot.js"></script>
+
+</body>
+</html>

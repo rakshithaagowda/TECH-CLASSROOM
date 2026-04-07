@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Tech Classroom</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+  <!-- 🌐 Navbar -->
+  <nav class="navbar">
+    <div class="logo">Tech Classroom</div>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="Classroom.html">Classroom</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="chatbot.html">Chatbot</a></li>
+      <li><a href="todo.html">To-Do</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="resources.html">Resources</a></li>
+
+      <!-- Dynamic login/logout -->
+      <li><a href="login.html" class="active" id="loginNav">Login</a></li>
+      <li><a href="#" id="logoutBtn" style="display:none;">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔐 Login Section -->
+  <section class="login-section">
+    <div class="login-container">
+
+      <!-- Left Side -->
+      <div class="login-left">
+        <h2>Welcome Back 👋</h2>
+        <p>Access your personalized Tech Classroom dashboard, track progress, and continue learning smarter.</p>
+        <img src="../assets/login.jpeg" alt="Login Illustration">
+      </div>
+
+      <!-- Right Side (Form) -->
+      <div class="login-right">
+        <h2>Login</h2>
+        <form id="loginForm">
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+          </div>
+
+          <button type="button" id="loginBtn" class="btn primary">Login</button>
+
+
+          <p class="redirect-text">
+            Don’t have an account?
+            <a href="signup.html">Sign up</a>
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 📞 Footer -->
+  <footer>
+    <p>Contact: <a href="mailto:support@techclassroom.com">support@techclassroom.com</a></p>
+    <p>&copy; 2025 Tech Classroom. All rights reserved.</p>
+  </footer>
+  
+<script src="../js/config.js"></script>
+<script src="../js/session.js"></script>
+<script src="../js/logout.js"></script>
+<script src="../js/login.js"></script>
+
+</body>
+</html>

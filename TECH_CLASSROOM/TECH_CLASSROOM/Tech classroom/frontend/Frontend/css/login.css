@@ -1,0 +1,129 @@
+/* ================================
+   LOGIN PAGE STYLES
+================================== */
+body {
+  background-color: #f3eaff; /* Same lavender tone */
+}
+
+/* Layout container */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  min-height: calc(100vh - 180px); /* leave space for navbar + footer */
+}
+
+/* Two-column layout */
+.login-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Left section */
+.login-left {
+  background-color: #c5b2ff; /* Same as navbar/footer */
+  color: #3a0072;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.login-left h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.login-left p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login-left img {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 15px;
+  margin-top: 1rem;
+}
+
+/* Right section */
+.login-right {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-right h2 {
+  text-align: center;
+  color: #3a0072;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 600;
+  color: #3a0072;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 2px solid #c5b2ff;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #6e3ae8;
+}
+
+button.btn.primary {
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #6e3ae8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button.btn.primary:hover {
+  background-color: #5327c2;
+}
+
+.redirect-text {
+  text-align: center;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.redirect-text a {
+  color: #6e3ae8;
+  font-weight: 600;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .login-container {
+    grid-template-columns: 1fr;
+  }
+
+  .login-left {
+    display: none;
+  }
+}

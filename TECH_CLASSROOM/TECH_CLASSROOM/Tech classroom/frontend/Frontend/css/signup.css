@@ -1,0 +1,194 @@
+/* =======================================
+   GLOBAL THEME (same as site)
+======================================= */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3eaff; /* lavender background */
+  color: #3a0072;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* =======================================
+   NAVBAR (reused theme)
+======================================= */
+.navbar {
+  background-color: #c5b2ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3a0072;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  font-weight: 500;
+  color: #3a0072;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #6e3ae8;
+  font-weight: 600;
+}
+
+/* =======================================
+   SIGNUP CONTAINER
+======================================= */
+.signup-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background-color: #f3eaff;
+}
+
+.signup-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  padding: 2.5rem 3rem;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.signup-container h2 {
+  color: #3a0072;
+  margin-bottom: 0.5rem;
+}
+
+.signup-container p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+/* =======================================
+   FORM STYLING
+======================================= */
+.signup-form .form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.signup-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #3a0072;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border: 1.8px solid #c5b2ff;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.signup-form input:focus {
+  border-color: #6e3ae8;
+  box-shadow: 0 0 5px rgba(110, 58, 232, 0.3);
+}
+
+/* =======================================
+   BUTTON
+======================================= */
+.btn.primary {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #6e3ae8;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.btn.primary:hover {
+  background-color: #5327c2;
+}
+
+/* =======================================
+   LOGIN LINK
+======================================= */
+.login-link {
+  margin-top: 1rem;
+  color: #555;
+}
+
+.login-link a {
+  color: #6e3ae8;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* =======================================
+   FOOTER
+======================================= */
+footer {
+  background-color: #c5b2ff;
+  text-align: center;
+  padding: 1.5rem 0;
+  color: #3a0072;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #3a0072;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* =======================================
+   RESPONSIVE
+======================================= */
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 2rem 1.5rem;
+  }
+}
+/* Fix unwanted underline or border in navbar (specific to signup page) */
+.navbar a {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+/* Optional hover + active styling for consistency */
+.navbar a:hover {
+  border-bottom: 2px solid #6e3ae8;
+}
+
+.navbar a.active {
+  border-bottom: 2px solid #6e3ae8;
+  font-weight: 600;
+}

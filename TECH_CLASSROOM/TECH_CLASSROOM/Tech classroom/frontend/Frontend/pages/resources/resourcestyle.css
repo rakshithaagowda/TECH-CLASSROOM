@@ -1,0 +1,83 @@
+/* ===============================
+   Resource Pages Shared Styling
+   (for ds.html, cn.html, java.html, python.html, os.html)
+   =============================== */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f6ff;
+  color: #333;
+}
+
+.resource-page {
+  padding: 50px 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.resource-page h1 {
+  color: #5a4abf;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.resource-section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 30px;
+  text-align: left;
+}
+
+.resource-section h2 {
+  color: #5a4abf;
+  margin-bottom: 15px;
+  border-left: 5px solid #5a4abf;
+  padding-left: 10px;
+}
+
+.resource-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resource-section ul li {
+  background: #ece9ff;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.resource-section ul li:hover {
+  background: #dcd6ff;
+}
+
+.resource-section a {
+  text-decoration: none;
+  color: #4838a3;
+  font-weight: 500;
+}
+
+.resource-section a:hover {
+  text-decoration: underline;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #5a4abf;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.back-btn:hover {
+  background: #3c2d8f;
+}

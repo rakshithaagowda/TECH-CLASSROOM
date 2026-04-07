@@ -1,0 +1,451 @@
+{
+  "subject": "os",
+  "levels":[
+    {
+      "level": 1,
+      "questions":
+[
+  {
+    "question": "Which of the following is the main function of an Operating System?",
+    "options": ["Virus Protection", "Manage Hardware & Software Resources", "Typing Documents", "Compiling Programs"],
+    "answer": "Manage Hardware & Software Resources",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which of the following is NOT an operating system?",
+    "options": ["Windows", "Linux", "Oracle", "macOS"],
+    "answer": "Oracle",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "The core of an operating system is called:",
+    "options": ["Shell", "Kernel", "Process", "Command Interpreter"],
+    "answer": "Kernel",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which scheduling algorithm executes the shortest job first?",
+    "options": ["FCFS", "SJF", "RR", "Priority"],
+    "answer": "SJF",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "A program in execution is called:",
+    "options": ["Thread", "Process", "Kernel", "File"],
+    "answer": "Process",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which of the following is a type of OS?",
+    "options": ["Real-Time OS", "Soft OS", "Protocol OS", "Binary OS"],
+    "answer": "Real-Time OS",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which command shows current processes in Linux?",
+    "options": ["ls", "ps", "rm", "mkdir"],
+    "answer": "ps",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Round Robin scheduling uses:",
+    "options": ["Time Quantum", "Shortest Job", "Priority Queue", "FIFO Queue"],
+    "answer": "Time Quantum",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Thrashing occurs due to:",
+    "options": ["CPU overload", "Too many interrupts", "Insufficient memory", "Bad disk sectors"],
+    "answer": "Insufficient memory",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Critical section problem is resolved using:",
+    "options": ["Paging", "Semaphores", "Thrashing", "Linking"],
+    "answer": "Semaphores",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which of the following is an I/O device?",
+    "options": ["Mouse", "RAM", "CPU", "Cache"],
+    "answer": "Mouse",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which memory is directly accessible by the CPU?",
+    "options": ["Cache", "Hard Disk", "SSD", "CD"],
+    "answer": "Cache",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which part of OS interacts with the user?",
+    "options": ["Kernel", "Shell", "Scheduler", "Memory Manager"],
+    "answer": "Shell",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "FCFS scheduling is:",
+    "options": ["Preemptive", "Non-Preemptive", "Round Based", "Random"],
+    "answer": "Non-Preemptive",
+    "points": 5,
+    "level": 1
+  },
+  {
+    "question": "Which system call creates a new process in UNIX?",
+    "options": ["exec()", "fork()", "open()", "close()"],
+    "answer": "fork()",
+    "points": 5,
+    "level": 1
+  }
+]
+    },
+     {
+      "level": 2,
+      "questions": [
+
+  {
+    "question": "Which memory management technique divides memory into fixed-sized blocks?",
+    "options": ["Paging", "Segmentation", "Swapping", "Fragmentation"],
+    "answer": "Paging",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "The process state when it is waiting for I/O is called:",
+    "options": ["Ready", "Running", "Waiting", "Terminated"],
+    "answer": "Waiting",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Producer-consumer problem is solved using:",
+    "options": ["Paging", "Mutex & Semaphores", "Thrashing", "Interrupts"],
+    "answer": "Mutex & Semaphores",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which scheduling policy guarantees no starvation?",
+    "options": ["FCFS", "Round Robin", "Priority", "SJF"],
+    "answer": "Round Robin",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which of the following is NOT a process state?",
+    "options": ["Terminated", "Blocked", "Waiting", "Executing"],
+    "answer": "Executing",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which memory allocation suffers from external fragmentation?",
+    "options": ["Paging", "Segmentation", "Dynamic Partitioning", "None"],
+    "answer": "Dynamic Partitioning",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which is the fastest memory?",
+    "options": ["Cache", "Main Memory", "Disk", "Registers"],
+    "answer": "Registers",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "What is a process control block (PCB)?",
+    "options": ["Memory Block", "Process Information Structure", "CPU Register", "Physical Address"],
+    "answer": "Process Information Structure",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "The translation of logical to physical address is done by:",
+    "options": ["CPU", "MMU", "Cache", "Kernel"],
+    "answer": "MMU",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Time-sharing OS uses:",
+    "options": ["Multiprogramming", "Batch Processing", "Parallel Processing", "Segmentation"],
+    "answer": "Multiprogramming",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which algorithm prevents deadlock?",
+    "options": ["FIFO", "Banker's", "Round Robin", "LIFO"],
+    "answer": "Banker's",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Thrashing affects:",
+    "options": ["CPU Utilization", "Cache Size", "I/O Devices", "Stack Memory"],
+    "answer": "CPU Utilization",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which is an example of real-time OS?",
+    "options": ["Windows", "Linux", "VxWorks", "macOS"],
+    "answer": "VxWorks",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Context switching happens when:",
+    "options": ["Process terminates", "CPU changes process", "Memory is swapped", "User logs out"],
+    "answer": "CPU changes process",
+    "points": 5,
+    "level": 2
+  },
+  {
+    "question": "Which of the following prevents race conditions?",
+    "options": ["Memory Map", "Critical Section", "Fragmentation", "Page Table"],
+    "answer": "Critical Section",
+    "points": 5,
+    "level": 2
+    }
+  ]
+},
+
+      {
+      "level": 3,
+      "questions": [
+
+  {
+    "question": "Which page replacement algorithm uses 'age bits'?",
+    "options": ["LRU", "NRU", "FIFO", "Optimal"],
+    "answer": "NRU",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Which type of scheduler selects the process from ready queue?",
+    "options": ["Long-term", "Short-term", "Medium-term", "I/O scheduler"],
+    "answer": "Short-term",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Which memory management technique supports variable sized segments?",
+    "options": ["Paging", "Segmentation", "Fragmentation", "Swapping"],
+    "answer": "Segmentation",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Dirty bit in paging is used for:",
+    "options": ["Protection", "Address translation", "Page replacement optimization", "Security"],
+    "answer": "Page replacement optimization",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Threads belonging to the same process share:",
+    "options": ["Registers", "Address Space", "Program Counter", "Stack"],
+    "answer": "Address Space",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Deadlock occurs due to:",
+    "options": ["Insufficient CPU", "Circular Wait", "Paging", "Context Switching"],
+    "answer": "Circular Wait",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Belady’s anomaly occurs in which algorithm?",
+    "options": ["FIFO", "LRU", "Optimal", "MRU"],
+    "answer": "FIFO",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "The process of loading pages only when needed is:",
+    "options": ["Swapping", "Demand Paging", "Segmentation", "Compaction"],
+    "answer": "Demand Paging",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Which is NOT required for deadlock?",
+    "options": ["Hold & Wait", "Mutual Exclusion", "Preemption", "Circular Wait"],
+    "answer": "Preemption",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "TLB improves:",
+    "options": ["CPU Speed", "Address Translation", "Disk Access", "Fragmentation"],
+    "answer": "Address Translation",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Zombie process is:",
+    "options": ["Killed process", "Running process", "Terminated but waiting for parent", "I/O blocked"],
+    "answer": "Terminated but waiting for parent",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "What is compaction?",
+    "options": ["Removing external fragmentation", "Backup process", "Page replacement", "IO scheduling"],
+    "answer": "Removing external fragmentation",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Which system call replaces the current process image?",
+    "options": ["fork()", "exec()", "wait()", "exit()"],
+    "answer": "exec()",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Race conditions occur in:",
+    "options": ["Sequential Programs", "Concurrent Processes", "Compilers", "Memory Allocation"],
+    "answer": "Concurrent Processes",
+    "points": 5,
+    "level": 3
+  },
+  {
+    "question": "Which scheduling gives minimum average waiting time?",
+    "options": ["FCFS", "RR", "SJF", "Priority"],
+    "answer": "SJF",
+    "points": 5,
+    "level": 3
+  }
+]
+      },
+
+      {
+      "level": 4,
+      "questions": [
+
+  {
+    "question": "Which algorithm guarantees deadlock-free resource allocation?",
+    "options": ["LRU", "Banker's", "FIFO", "RR"],
+    "answer": "Banker's",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which OS component performs disk scheduling?",
+    "options": ["Dispatcher", "I/O Manager", "Memory Manager", "Scheduler"],
+    "answer": "I/O Manager",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which disk scheduling provides the best performance?",
+    "options": ["FCFS", "SCAN", "C-SCAN", "LOOK"],
+    "answer": "C-SCAN",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which technique uses both paging and segmentation?",
+    "options": ["Hybrid Memory Management", "Swapping", "Compaction", "FIFO"],
+    "answer": "Hybrid Memory Management",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Soft real-time systems:",
+    "options": ["Guarantee deadlines", "Miss deadlines without failure", "Cannot miss deadlines", "Use batch processing"],
+    "answer": "Miss deadlines without failure",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which system call waits for child process to finish?",
+    "options": ["fork()", "exec()", "wait()", "open()"],
+    "answer": "wait()",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which file allocation method uses linked list?",
+    "options": ["Contiguous", "Linked", "Indexed", "Direct"],
+    "answer": "Linked",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Inverted page table reduces:",
+    "options": ["Page faults", "Hash table size", "Memory overhead", "Disk access"],
+    "answer": "Memory overhead",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "DMA improves performance by:",
+    "options": ["Handling CPU interrupts", "Bypassing CPU for I/O", "Speeding disk rotation", "Increasing cache"],
+    "answer": "Bypassing CPU for I/O",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which disk scheduling is fair but slow?",
+    "options": ["FCFS", "SCAN", "C-SCAN", "LOOK"],
+    "answer": "FCFS",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "A hole in memory refers to:",
+    "options": ["Free block", "Corrupted file", "Cache miss", "Unused disk sector"],
+    "answer": "Free block",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which directory structure is most flexible?",
+    "options": ["Single-level", "Two-level", "Tree", "Acyclic Graph"],
+    "answer": "Acyclic Graph",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Which of the following avoids deadlock?",
+    "options": ["Detect & Recover", "Ignore Deadlock", "Prevention", "All of these"],
+    "answer": "All of these",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "In RAID, data redundancy is achieved using:",
+    "options": ["Mirroring", "Cylinders", "Spooling", "Thrashing"],
+    "answer": "Mirroring",
+    "points": 5,
+    "level": 4
+  },
+  {
+    "question": "Spooling stands for:",
+    "options": ["Simultaneous Peripheral Operations On-Line", "Secure Protocol On-Line", "Sequential Process On-Line", "System Peripheral Output Link"],
+    "answer": "Simultaneous Peripheral Operations On-Line",
+    "points": 5,
+    "level": 4
+  }
+]
+}
+  ]
+}
