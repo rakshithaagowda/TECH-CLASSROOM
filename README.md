@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tech-Classroom
 Tech Classroom is a web-based learning platform for technical subjects, offering classroom management, level-based interactive quizzes, a student dashboard, to-do list, and a resource library for structured and engaging learning.
 =======
@@ -116,6 +116,6 @@ index.html
 
 ## Author
 
-Rakshitha Gowda
+Rakshitha R S
 
 >>>>>>> 72d050b1c1b1e07f941cc2b2fd01c8198cef979d
