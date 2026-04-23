@@ -78,6 +78,40 @@ frontend/index.html
 (You can double-click it or open with Live Server if using VS Code)
 
 ---
+## 📸 Screenshots 
+
+### 🔐 Authentication
+<img src="https://github.com/user-attachments/assets/1948230a-1c64-4c99-991d-6fe06cbc92c1" />
+<img src="https://github.com/user-attachments/assets/3434838f-0dba-4484-b03e-ea4d4a39d680" />
+
+---
+
+### 🏠 Dashboard
+<img src="https://github.com/user-attachments/assets/3b38d549-451e-421b-a969-0d070597566f" />
+<img src="https://github.com/user-attachments/assets/944f4f1d-740f-4c2f-aac5-61004c05270b" />
+
+---
+
+### 🏫 Classroom System
+<img src="https://github.com/user-attachments/assets/d8edc221-71de-4421-8818-815bb145feae" />
+
+---
+
+### 🤖 Level Based Quiz and AI chatbot support
+<img src="https://github.com/user-attachments/assets/e6eeb01c-2a3a-4efb-bddf-e7a65a08b6c8" />
+<img src="https://github.com/user-attachments/assets/ac5cd925-3297-44f2-b06c-09951b691fd4" />
+
+---
+
+### 📝 Productivity Tools
+<img src="https://github.com/user-attachments/assets/10a77f2f-9b45-40a7-8a9a-45ca0d1b6ba5" />
+
+---
+
+### 📚 Learning Resources
+<img src="https://github.com/user-attachments/assets/cc38f5f2-e8aa-45e2-aa40-f54551b791f1" />
+
+---
 
 🎯 Future Improvements
 - User authentication system
@@ -89,6 +123,6 @@ frontend/index.html
 👩‍💻 Author
 
 Rakshitha R S
-⭐ Support
 
+⭐ Support
 If you like this project, please give it a ⭐ on GitHub.
